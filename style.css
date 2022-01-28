@@ -13,6 +13,18 @@
       margin-right: 30px;
       margin-top: 20px;
   }
+
+  @media (max-width: 800px) {
+    .navbar {
+        background-color: rgb(0, 0, 0);   
+        
+      } 
+      .nav-link {
+        color: white;
+        margin-left: 10px;
+        margin-top: 20px;
+    }
+  }
   
   .dropdown-item {
       color: white;
@@ -389,12 +401,16 @@
           margin-left: auto;
           text-align: center;
       }
+
+      .logo01a {
+          width: 144px;
+      }
   }
 
   .proverbios {
       color: #9f8436  ;
   }
 
-
+ 
 
  
