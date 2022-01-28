@@ -348,6 +348,12 @@
       margin-right: 350px;
       margin-bottom: -40px;
   }
+
+  .imG1dh {
+      width: 70px;
+      margin-right: 350px;
+      margin-bottom: -40px;
+  }
   
   @media (max-width: 990px) {
       #dTra {
@@ -359,6 +365,10 @@
       } 
       
       .imG1e {
+          width: 60px;
+      }
+
+      .imG1dh {
           width: 60px;
       }
   }
@@ -377,6 +387,7 @@
       .parag01 {
           margin-right: auto;
           margin-left: auto;
+          text-align: center;
       }
   }
 

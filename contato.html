@@ -80,13 +80,13 @@
 
         <form action="https://api.staticforms.xyz/submit" method="POST" class="card1">
 
-          <input type="hidden" name="accessKey" value="59e7f3fc-6af6-46f0-8ace-672d180eff72">
+          <input type="hidden" name="accessKey" value="062f09e4-f0db-40f4-9a35-83ae9c813cba">
 
-          <input type="hidden" name="redirectTo" value="contato.html">
+          <input type="hidden" name="redirectTo" value="https://ronaldomborges.github.io/meuSite/contato.html">
 
           <label for="exampleFormControlInput1" class="form-label">Nome completo</label>
 
-          <input type="text" class="form-control" id="exampleFormControlInput1" name="name">
+          <input type="text" class="form-control" id="exampleFormControlInput1" name="name" required>
 
       </div>
       <div class="col-lg-6">
@@ -94,7 +94,7 @@
         <label for="exampleFormControlInput1" class="form-label">E-mail</label>
 
         <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@examplo.com"
-          name="email">
+          name="email" required>
 
       </div>
 
@@ -107,10 +107,10 @@
 
       <label for="exampleFormControlTextarea1" class="form-label">Deixe sua mensagem</label>
 
-      <textarea name="message" class="form-control" id="exampleFormControlTextarea1" rows="4"></textarea>
+      <textarea name="message" class="form-control" id="exampleFormControlTextarea1" rows="4" required></textarea>
 
     </div>
-    <button type="button" class="btn btn-dark">Enviar</button>
+    <button type="button" class="btn btn-dark"> <input class="btn btn-dark" type="submit" value="Enviar" /></button>
 
     </form>
     
@@ -145,7 +145,9 @@
             <li>
               <h6 class="centerH6">E-mail:</h6>
             </li>
-            <a class="linke" href="mailto:ronaldoborges0706@outlook.com?Subject=Título%20da%20mensagem">Ronaldo@Borges
+            <a class="linke" href="mailto:ronaldoborgesgestor@hotmail.com?Subject=Título%20da%20mensagem">
+              
+              Ronaldo@Borges
 
             </a>
 
